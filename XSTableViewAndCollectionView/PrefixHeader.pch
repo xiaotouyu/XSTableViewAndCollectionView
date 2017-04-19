@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  XSTableViewAndCollectionView
+//
+//  Created by dashuios126 on 2017/4/18.
+//  Copyright © 2017年 dashuios126. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "SDAutoLayout.h"
+
+#define KSCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define  kSCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/1.0]
+
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256.0))
+
+#endif /* PrefixHeader_pch */
